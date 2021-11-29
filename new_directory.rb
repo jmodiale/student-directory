@@ -1,5 +1,5 @@
 # let's put all students into an array
-def print_names
+def input_students
   puts "Please enter a name:"
   arr = []
   user_input = gets.chomp 
@@ -17,4 +17,4 @@ def print_names
   puts "Overall, we have #{arr.count} great students"
 end
 
-print_names()
+input_students()
